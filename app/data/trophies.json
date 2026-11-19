@@ -8,385 +8,715 @@
    "name": "Vice Got a Price!",
    "description": "Congratulations! You're a Leonida Legend.",
    "grade": "platinum",
-   "guide": "Earn the other 54 trophies."
+   "guide": "This is the platinum: it pops on its own when the other 54 trophies are all earned, so there is nothing separate to do for it. Work the rest of this guide — story first, then strands and activities, then the long cumulative counters — and treat this page as your final progress check. If one trophy is holding the platinum back, it will almost always be a cumulative one (250 stunts, 100 WAiNK locations, $250,000 laundered), so start those early rather than leaving them for a final grind.",
+   "kind": "platinum",
+   "kindBasis": "Awarded for earning every other trophy on the list.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable on its own: it unlocks automatically once the other 54 trophies are earned, whenever that happens.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 2,
    "name": "Just Like Paradise",
    "description": "Complete Gone Fishing.",
    "grade": "bronze",
-   "guide": "Finish the opening mission, Gone Fishing."
+   "guide": "Play the opening mission, Gone Fishing, to completion on your main save. Because it is the first mission of the game, the practical advice is simple: do not skip or abandon the introduction, and let the mission finish fully before free-roaming. The official description gives no optional objective or fail condition for it, so nothing more specific can honestly be promised. If you start a second save later, this trophy is earned again there — but for the platinum run, secure it at the start and move on.",
+   "kind": "story",
+   "kindBasis": "Description names the mission Gone Fishing, the game's opening mission.",
+   "secret": false,
+   "missable": true,
+   "missableNote": "Missable-risk (precautionary, not confirmed): the description ties this to the opening mission. An opening mission normally plays once at the start of a save, so earn it on your main playthrough and keep an early save until it pops.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 3,
    "name": "Paradise Lost",
    "description": "Complete Chapter 1.",
    "grade": "bronze",
-   "guide": "Finish Chapter 1."
+   "guide": "Finish every main mission that belongs to Chapter 1 and this trophy follows automatically. There is no separate task hidden in the description: it rewards story progression, not a collectible or a score. Our advice is to play Chapter 1 straight through, learn the map and systems, and resist starting long side grinds until the chapter is done — the activities and strands that feed other trophies open up as the story advances. Keep a manual save at the chapter break in case you want a clean re-entry point later.",
+   "kind": "story",
+   "kindBasis": "Description says 'Complete Chapter 1' — a main-story chapter milestone.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable: chapter-completion trophies are earned by finishing the chapter's missions. The description states no one-time optional action inside the chapter, so progressing the story earns it.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 4,
    "name": "T**s Ass Drug Money",
    "description": "Complete Chapter 2.",
    "grade": "bronze",
-   "guide": "Finish Chapter 2."
+   "guide": "Complete the main missions of Chapter 2. Like the other chapter trophies, this one is a pure progression reward — the description asks for nothing optional, hidden or scored. By this point the game will have introduced more of Leonida, so use travel between Chapter 2 missions to start passive progress: discover vehicles whenever you see a new model (Whip It Good needs 100) and take stunt opportunities as they appear rather than farming them later.",
+   "kind": "story",
+   "kindBasis": "Description says 'Complete Chapter 2' — a main-story chapter milestone.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable: earned by completing Chapter 2's missions; the description names no one-time side action.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 5,
    "name": "Vice City, Baby!",
    "description": "Complete Chapter 3.",
    "grade": "bronze",
-   "guide": "Finish Chapter 3."
+   "guide": "Work through the main missions of Chapter 3 to earn this trophy. Nothing in the official wording suggests a choice, a timer or a missable branch — it is a milestone for reaching the story's midpoint. A sensible rhythm from here on: alternate one story mission with one strand or activity, so the cumulative trophies (challenges, races, card sets) grow alongside the plot instead of piling up at the end.",
+   "kind": "story",
+   "kindBasis": "Description says 'Complete Chapter 3' — a main-story chapter milestone.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable: earned by completing Chapter 3's missions; no one-time action is named in the description.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 6,
    "name": "Top Of The World, Ma",
    "description": "Complete Chapter 4.",
    "grade": "bronze",
-   "guide": "Finish Chapter 4."
+   "guide": "Complete the main missions of Chapter 4. This is the last numbered chapter trophy before the finale, so it is a good moment to audit your tracker: check which strand finales (Andy, Kenton, Billy, Randy, Tyrone) are still open, and make a save before pushing into the endgame so you can return to free roam afterwards if the ending locks anything. The description itself promises no extra condition beyond finishing the chapter.",
+   "kind": "story",
+   "kindBasis": "Description says 'Complete Chapter 4' — a main-story chapter milestone.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable: earned by completing Chapter 4's missions; no one-time action is named in the description.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 7,
    "name": "You Gotta Know When to Get Off",
    "description": "Complete the final mission.",
    "grade": "gold",
-   "guide": "Finish the final mission (gold)."
+   "guide": "Finish the game's final mission. This gold trophy is the story's finishing line, and the only preparation the description supports is the obvious one: arrive with the story complete and your characters equipped, and save beforehand so the finale can be replayed or revisited if the game allows it. Do not rush here at the expense of the strands — several strand-finale trophies are easier to tidy before the credits, and the 100% completion gold (A Long Road) will send you back out into Leonida afterwards anyway.",
+   "kind": "story",
+   "kindBasis": "Description says 'Complete the final mission' — the story finale, and the list's story gold.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable in itself — finishing the story earns it — but save before the final mission: the separate 'Actions Speak Louder' trophy counts choices (the list shows a count to 500), and a pre-finale save protects you if any endgame choice turns out to matter.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 8,
    "name": "Trust",
    "description": "Complete Breakfast Run.",
    "grade": "bronze",
-   "guide": "Finish the mission Breakfast Run."
+   "guide": "Complete the story mission Breakfast Run when it is offered. The description asks only for completion — no medal, no time limit, no optional objective is mentioned — so play it as part of the normal story flow and let it pop at the mission's end. If a mission ever fails or is abandoned mid-way, simply retry it; mission-completion trophies in this list are about finishing, not about finishing perfectly.",
+   "kind": "story",
+   "kindBasis": "Description names a single story mission, Breakfast Run.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable: it is earned by completing the named mission as the story presents it; the description names no optional condition that could be skipped.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 9,
    "name": "Break the Bank",
    "description": "Complete The Cartel Heist.",
    "grade": "bronze",
-   "guide": "Finish the mission The Cartel Heist."
+   "guide": "Complete the story mission The Cartel Heist. A heist mission usually rewards preparation, but the official description states no extra requirement beyond finishing it, so this guide will not invent one. Play it in story order, and if the mission offers setup choices, pick the approach you are most comfortable executing — the trophy is for completion, not for a particular route.",
+   "kind": "story",
+   "kindBasis": "Description names a single story mission, The Cartel Heist.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable: earned by completing the named mission in story order; no optional condition is stated.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 10,
    "name": "Family Matters",
    "description": "Complete Child's Play.",
    "grade": "bronze",
-   "guide": "Finish the mission Child's Play."
+   "guide": "Complete the story mission Child's Play when it appears. The description promises the trophy for finishing the mission and nothing more specific can be derived from it — no location beyond the mission itself, no score and no optional task. Treat it as one of the story beats that also moves you toward the chapter trophies.",
+   "kind": "story",
+   "kindBasis": "Description names a single story mission, Child's Play.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable: earned by completing the named mission in story order; no optional condition is stated.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 11,
    "name": "DWNFALL",
    "description": "Complete Headliners.",
    "grade": "bronze",
-   "guide": "Finish the mission Headliners."
+   "guide": "Complete the story mission Headliners. As with the other named-mission trophies, the official wording makes completion the whole requirement. Play it in sequence, finish it, and the trophy follows. If you are tracking efficiently, note that these single-mission trophies need no farming — your story playthrough collects them all.",
+   "kind": "story",
+   "kindBasis": "Description names a single story mission, Headliners.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable: earned by completing the named mission in story order; no optional condition is stated.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 12,
    "name": "Hi-Jacked",
    "description": "Complete VCIA Takedown.",
    "grade": "bronze",
-   "guide": "Finish the mission VCIA Takedown."
+   "guide": "Complete the story mission VCIA Takedown. VCIA is one of the few locations the official list names twice — this mission, and the unscheduled-departure moment in Catch Me If You Can — so when the story takes you there, slow down and look around before finishing: it is the one place where this guide advises extra attention during a story mission. The trophy itself, per its description, needs only completion.",
+   "kind": "story",
+   "kindBasis": "Description names a single story mission, VCIA Takedown. VCIA also appears in the 'Catch Me If You Can' trophy.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable: earned by completing the named mission. While you are at VCIA for this mission, be aware of the separate 'Catch Me If You Can' trophy, which this guide flags as a risk because it describes a one-off-style departure from the same location.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 13,
    "name": "Snow Storm",
    "description": "Complete Operation Savage Glory.",
    "grade": "bronze",
-   "guide": "Finish the mission Operation Savage Glory."
+   "guide": "Complete the story mission Operation Savage Glory. The description gives completion as the sole condition, so no route, loadout or score can honestly be prescribed from it. Play it as it arrives in the story; together with the other named missions it fills out the mission layer between the chapter trophies and the finale.",
+   "kind": "story",
+   "kindBasis": "Description names a single story mission, Operation Savage Glory.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable: earned by completing the named mission in story order; no optional condition is stated.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 14,
    "name": "A Long Road",
    "description": "Attain 100% Completion.",
    "grade": "gold",
-   "guide": "Reach 100% completion (gold)."
+   "guide": "Reach 100% completion as the game itself defines it. The official description does not publish the checklist, so this guide cannot list its exact contents — what can be said honestly is that the other trophies map closely onto the usual completion categories: story and chapters, strand finales, activities tried and mastered, collectibles and cumulative counters. Use this tracker as your completion dashboard: when every strand, activity and counter trophy is done, check the in-game completion percentage and hunt whatever category still shows a gap.",
+   "kind": "completion",
+   "kindBasis": "Description says 'Attain 100% Completion' — the whole-game completion gold.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable, but the longest trophy on the list: anything the game's 100% checklist counts must be done, so track strands, activities and collectibles from the start instead of leaving them all for after the story.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 15,
    "name": "Cunning Stunts",
    "description": "Complete 250 Stunts.",
    "grade": "silver",
-   "guide": "Pull off 250 stunts (silver)."
+   "guide": "Complete 250 stunts, cumulatively. The description does not define what the game counts as a stunt or where stunt spots are, and this guide will not invent a map for it. The honest strategy for any 250-count trophy is distribution: take stunt opportunities whenever they appear during normal travel — jumps and set pieces you pass anyway — and keep a rough mental tally so the last fifty do not become a single grinding session. Check the in-game stats screen, if the game provides one, to see your real count rather than guessing.",
+   "kind": "stunt",
+   "kindBasis": "Description sets a cumulative count: 'Complete 250 Stunts.'",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: a cumulative counter that can be worked on at any time in free roam. It is long, so it should be started early, not because it can be lost.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 16,
    "name": "Master of None",
    "description": "Try each type of activity once.",
    "grade": "bronze",
-   "guide": "Try all 9 activity types once."
+   "guide": "Try every type of activity at least once. The starter data notes 9 activity types, but the official description does not name them, so use the game's own activity list or map filters as your checklist and tick a type off the first time you play it. This is one of the cheapest trophies on the list if you sample activities as they unlock during the story, instead of discovering at 95% completion that one type was never touched.",
+   "kind": "activity",
+   "kindBasis": "Description says 'Try each type of activity once' — sampling every activity category.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: activities remain available in free roam. Try each type as it unlocks so none is forgotten at the end.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 17,
    "name": "The Shootist",
    "description": "Earn a gold medal in all Shooting Range challenges.",
    "grade": "silver",
-   "guide": "Gold all 42 Shooting Range challenges (silver)."
+   "guide": "Earn a gold medal in every Shooting Range challenge — the starter data records 42 challenges. The description does not publish the gold thresholds, so the practical method is the universal one for scored ranges: learn each challenge's target pattern with a few practice runs, then chase gold once the pattern is familiar, and move on whenever you stall — a fresh session often beats an hour of frustrated retries. Because challenges can be re-attempted, nothing here is missable; it is a skill trophy, and steady short sessions are the efficient way to finish it.",
+   "kind": "activity",
+   "kindBasis": "Description requires gold medals in all Shooting Range challenges — a scored activity set.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: range challenges can be retried. Gold medals reward practice and retrying, not a one-time window.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 18,
    "name": "Top Fun",
    "description": "Win a Top Fun Drone Race at every location.",
    "grade": "bronze",
-   "guide": "Win a Top Fun drone race at all 14 locations."
+   "guide": "Win a Top Fun Drone Race at every location — the starter data records 14 locations. Keep a simple list of locations and mark each one when you win there; finishing second at a new location does not advance this trophy, but it does teach you the course. Learn each route once, then race it for the win. The official description does not name the locations, so the game's map and race menu are your source for where they are.",
+   "kind": "activity",
+   "kindBasis": "Description requires winning a Top Fun Drone Race at every location — a repeatable race set.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: races can be re-run until won. The requirement is a win at each location, so track locations, not attempts.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 19,
    "name": "Earn Cash, Not Kudos",
    "description": "Win 20 different races.",
    "grade": "bronze",
-   "guide": "Win 20 different races."
+   "guide": "Win 20 different races. The word 'different' is the whole guide: winning the same easy race twenty times does not finish this trophy, so spread your wins across the race types and locations the game offers. Drone races won for Top Fun are a natural overlap if the game counts them here — the description does not say, so do not rely on it; simply keep winning new events until the trophy pops, and use the tracker to note which events you have already won.",
+   "kind": "activity",
+   "kindBasis": "Description sets a count of distinct races won: 'Win 20 different races.'",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: races are repeatable, and the count is of different races, so variety matters more than repetition.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 20,
    "name": "Baited My Tackle",
    "description": "Beat Cal in a fishing challenge.",
    "grade": "bronze",
-   "guide": "Beat Cal in a fishing challenge."
+   "guide": "Beat Cal in a fishing challenge. The description names the opponent (Cal) and the activity (fishing), but not the place, the fish or the winning condition, so none can be specified here. Approach it as a head-to-head activity: find Cal's fishing challenge when it is offered, learn the fishing mechanics in free play first if the game allows practice, and retry until you win. A single win is all the description asks for.",
+   "kind": "activity",
+   "kindBasis": "Description names a rival and an activity: 'Beat Cal in a fishing challenge.'",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable on the wording given: a challenge against a named character is normally re-issuable until beaten. If Cal's challenge is offered during a story or strand beat, accept it rather than postponing it indefinitely.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 21,
    "name": "Stick Fiddler",
    "description": "Complete an arcade game.",
    "grade": "bronze",
-   "guide": "Finish one arcade game."
+   "guide": "Complete one arcade game, start to finish. This is deliberately one of the lightest trophies on the list: the description asks for a single completed arcade game, not a high score and not every cabinet. When you first pass an arcade or a playable cabinet during exploration, stop and finish a game there — it takes minutes and banks a trophy that is easy to forget among the bigger counters.",
+   "kind": "activity",
+   "kindBasis": "Description says 'Complete an arcade game' — a single activity completion.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: arcade games are repeatable activities. Pick any one and finish it.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 22,
    "name": "Road to Rehabilitation",
    "description": "Complete the final mission for Andy.",
    "grade": "bronze",
-   "guide": "Finish Andy's last mission."
+   "guide": "Complete Andy's strand through to its final mission. The description defines the requirement precisely — the final mission for Andy — which means the earlier missions of his strand are prerequisites even though they carry no trophies of their own. Work the strand in order whenever its missions are available, and use this tracker to note where you left off. The description does not say where Andy is found or what his missions involve, so follow the game's strand markers rather than any invented directions.",
+   "kind": "side",
+   "kindBasis": "Description requires the final mission of a named character's strand (Andy).",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable, with a caution: strand finales require completing the strand's earlier missions, so do not leave a strand half-finished and assume its finale is separately available — finish strands you start.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 23,
    "name": "This Was No Boat Accident",
    "description": "Complete the final mission for Kenton.",
    "grade": "bronze",
-   "guide": "Finish Kenton's last mission."
+   "guide": "Complete Kenton's strand through to its final mission. As with the other named-character trophies, the trophy sits on the last mission of the chain, so progress the strand in order and do not expect the finale to appear before its prerequisites are done. The official text gives no location or mission details for Kenton, so the game's own strand tracking is the reliable guide.",
+   "kind": "side",
+   "kindBasis": "Description requires the final mission of a named character's strand (Kenton).",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable, with the same strand caution as Andy: finish the strand's chain to reach its finale.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 24,
    "name": "The Lone Rider",
    "description": "Complete the final mission for Billy.",
    "grade": "bronze",
-   "guide": "Finish Billy's last mission."
+   "guide": "Complete Billy's strand through to its final mission. The pattern of this trophy group is consistent — one trophy per character, placed on the strand's last mission — so the efficient approach is to finish each strand in a small number of focused sessions rather than rotating through all of them at once. The description names only the character and the requirement, so let the game surface the missions.",
+   "kind": "side",
+   "kindBasis": "Description requires the final mission of a named character's strand (Billy).",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable, with the strand caution: complete the chain to unlock the finale.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 25,
    "name": "Strangers & Freaks",
    "description": "Complete 8 mission strands for strangers across the state of Leonida.",
    "grade": "silver",
-   "guide": "Finish 8 stranger strands (silver)."
+   "guide": "Complete 8 mission strands for strangers across Leonida. A 'strand' is a chain of missions for one stranger, so this silver trophy is really eight small storylines finished, not eight single missions. The named-character trophies (Andy, Kenton, Billy, Randy, Tyrone and Bret's hunt) suggest the kind of content that counts, but the description does not confirm the overlap, so track strands themselves: whenever the game introduces a stranger with follow-up missions, see the chain through and add one to your count.",
+   "kind": "side",
+   "kindBasis": "Description requires 8 mission strands for strangers across Leonida — a counted set of side strands.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable on the wording given: it counts completed strands, and strands are persistent side content. Start strands as you find them so the count builds across the whole playthrough.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 26,
    "name": "Supply & Demand",
    "description": "Complete the final mission for Randy.",
    "grade": "bronze",
-   "guide": "Finish Randy's last mission."
+   "guide": "Complete Randy's strand through to its final mission. Work the chain in order as it becomes available; the trophy is placed on the finale, so partial progress earns nothing until the strand closes. No location or content details are given in the official description, and none are invented here — follow the in-game strand markers.",
+   "kind": "side",
+   "kindBasis": "Description requires the final mission of a named character's strand (Randy).",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable, with the strand caution: complete the chain to unlock the finale.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 27,
    "name": "Spin On This!",
    "description": "Complete the final mission for Tyrone.",
    "grade": "bronze",
-   "guide": "Finish Tyrone's last mission."
+   "guide": "Complete Tyrone's strand through to its final mission. Treat it like the other strand finales: pick the strand up when it appears, finish its missions in sequence, and let the finale award the trophy. If several strands are open at once near the end of the game, close them one at a time — five strand-finale trophies plus Strangers & Freaks all depend on finished chains, not started ones.",
+   "kind": "side",
+   "kindBasis": "Description requires the final mission of a named character's strand (Tyrone).",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable, with the strand caution: complete the chain to unlock the finale.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 28,
    "name": "Positive Mental Attitude",
    "description": "Meditate at every spot across Leonida.",
    "grade": "bronze",
-   "guide": "Meditate at all 18 spots."
+   "guide": "Meditate at every meditation spot across Leonida — the starter data records 18 spots. The official description does not list where the spots are, and this guide will not fabricate a map. The reliable method for every 'all locations' trophy is regional sweeping: when the story or exploration takes you into a new area, check that area thoroughly before leaving, and note the spots you have used. Meditation spots also pair naturally with The Goodtime State (explore all of Leonida): do both in the same sweeps.",
+   "kind": "collectible",
+   "kindBasis": "Description requires meditating at every spot across Leonida — a fixed set of locations to visit.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: fixed spots in the world remain visitable. Work them region by region so none is left isolated at the end.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 29,
    "name": "Fair Game",
    "description": "Hunt a unique animal for Bret.",
    "grade": "bronze",
-   "guide": "Hunt the unique animal for Bret."
+   "guide": "Hunt the unique animal for Bret. 'Unique' is the operative word: this is one specific animal tied to Bret's request, not a count of ordinary hunts. Take the task from Bret when it is offered, follow the game's own tracking for the animal, and complete the hunt. The description does not name the animal, its region or the method, so no specifics are claimed here — the mission structure itself will supply them in game.",
+   "kind": "side",
+   "kindBasis": "Description requires hunting a unique animal for a named character (Bret) — a specific side task.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not flagged as missable, with a caution: it is a task for a named character, so accept and finish Bret's request once offered rather than leaving it as the only open strand item.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 30,
    "name": "Don't Touch My Deck",
    "description": "Complete 3 Collectible Card sets.",
    "grade": "silver",
-   "guide": "Complete 3 collectible card sets (silver)."
+   "guide": "Complete 3 full Collectible Card sets. Set-based collecting rewards breadth: a set only completes when every card in it is found, so three finished sets are worth more than six half-finished ones. The description does not say how many cards a set holds or where they are hidden, so work from the game's collection screen if it shows set progress, prioritise the set closest to completion when you are choosing where to search, and grab every card you pass during story and exploration play.",
+   "kind": "collectible",
+   "kindBasis": "Description requires completing 3 Collectible Card sets — set-based collecting.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: cards are world collectibles that remain findable. Collect opportunistically in every new area so sets complete steadily.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 31,
    "name": "You WAiNKer!",
    "description": "WAiNK It at 100 locations.",
    "grade": "silver",
-   "guide": "WAiNK It at 100 locations (silver)."
+   "guide": "Use WAiNK It at 100 locations. The description names the action and the count but not what WAiNK It is or where its locations are — the game itself will introduce the mechanic, and this guide honestly cannot describe it further. What transfers from every 100-location trophy is the method: use it whenever you arrive somewhere new, keep a running sense of your count from the in-game stats if available, and never pass a fresh location without adding it. Started early, this finishes almost by itself; started late, it is the platinum's longest tail.",
+   "kind": "collectible",
+   "kindBasis": "Description sets a location count: 'WAiNK It at 100 locations.'",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: a cumulative location counter that stays available. Spread it across the whole playthrough; 100 locations is a marathon if left to the end.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 32,
    "name": "One Last Thing",
    "description": "Complete 50 Challenges.",
    "grade": "bronze",
-   "guide": "Finish 50 challenges."
+   "guide": "Complete 50 challenges, cumulatively. The description does not define what counts as a challenge in the game's systems, so treat every in-game challenge prompt you meet as progress and finish the ones you start. Fifty is a mid-sized counter: it should complete naturally if you engage with side content throughout the story, and it overlaps in spirit with Master of None — trying each activity type tends to surface challenges as well. If you reach the endgame short of 50, work the challenge list from the game's menus rather than wandering.",
+   "kind": "activity",
+   "kindBasis": "Description sets a cumulative count: 'Complete 50 Challenges.'",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: challenges are repeatable content and the counter is cumulative across the playthrough.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 33,
    "name": "Hot Together",
    "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
    "grade": "bronze",
-   "guide": "Lose a 4-star wanted level with your partner."
+   "guide": "With your partner present, raise a 4-star Wanted Level, then lose it and escape the heat — together. The sequence is the trophy: reaching 4 stars alone, or escaping while separated, is not what the description describes. Set it up deliberately in free roam rather than hoping it happens during a mission: get your partner with you, cause enough trouble to reach exactly the required wanted level, then break line of sight and hide until the heat clears. The description does not specify a place or method for escaping, so any clean getaway that the game counts should serve.",
+   "kind": "combat",
+   "kindBasis": "Description describes a specific sequence with your partner: lose a 4-star Wanted Level together and escape.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: wanted levels can be raised again at any time, so the sequence can be set up deliberately whenever you and your partner are together in free roam.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 34,
    "name": "Retail Therapy",
    "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
    "grade": "bronze",
-   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
+   "guide": "Rob 3 shops back-to-back with your partner while keeping your Wanted Level the whole time. The two conditions pull in opposite directions — robbing raises attention, but the trophy fails if the wanted level is lost between shops — so plan a tight route of three nearby shops before starting, move directly from one to the next, and do not hide long enough for the heat to drop. The description does not name shop locations, so scout any cluster of three shops close together in an area you know, and retry the chain there until it holds.",
+   "kind": "combat",
+   "kindBasis": "Description describes a chained sequence: rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: shop robberies are repeatable free-roam actions, so the chain can be attempted again whenever it breaks.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 35,
    "name": "Whip It Good",
    "description": "Discover 100 vehicles.",
    "grade": "bronze",
-   "guide": "Discover 100 vehicles."
+   "guide": "Discover 100 different vehicles. Discovery counters in open-world games normally register a vehicle the first time you encounter or drive it, but the official description does not define 'discover', so this guide states the safe version: get in, or at least interact with, every new model you see. One hundred is a large count that punishes ignoring traffic variety — swap cars often, visit different districts (vehicle spawns usually vary by area and wealth), and check parking areas and showrooms you pass. It should complete well before 100% if you make a habit of it from Chapter 1.",
+   "kind": "exploration",
+   "kindBasis": "Description sets a discovery count: 'Discover 100 vehicles.'",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: a cumulative discovery counter that grows with normal play and can be finished in free roam at any time.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 36,
    "name": "Gunslinger",
    "description": "Take down 5 enemies in a single use of Combat Focus.",
    "grade": "bronze",
-   "guide": "Down 5 enemies in one Combat Focus."
+   "guide": "Take down 5 enemies in a single use of Combat Focus. The whole trophy is preparation: trigger Combat Focus only when at least five enemies are already in range and your weapon is ready, because activating it against two enemies wastes the attempt. Group fights during missions and strand finales are natural setups. The description does not explain Combat Focus's duration or controls — learn them in ordinary combat first, then engineer one crowded moment and spend the ability on it.",
+   "kind": "combat",
+   "kindBasis": "Description sets a combat-feat condition: 5 enemies down in a single use of Combat Focus.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: Combat Focus can be used again whenever it is charged, so attempts are unlimited — the requirement is one good use, prepared properly.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 37,
    "name": "Catch Me If You Can",
    "description": "Make an unscheduled departure at VCIA.",
    "grade": "bronze",
-   "guide": "Leave VCIA in an unscheduled way."
+   "guide": "Make an unscheduled departure at VCIA. This is one of the list's moment trophies: the description points at a specific place (VCIA, the same location as the VCIA Takedown mission) and an unplanned way of leaving it, but it does not spell out the vehicle, the trigger or the exact action — and this guide will not guess them into print. The practical advice the wording does support: when you are at VCIA, especially around its story mission, experiment before you leave normally — look for an aircraft or vehicle you are clearly not supposed to take, and take it. Save before VCIA story beats so the moment can be re-attempted.",
+   "kind": "exploration",
+   "kindBasis": "Description describes a one-off-style moment: an unscheduled departure at VCIA, a location also named in the VCIA Takedown mission.",
+   "secret": false,
+   "missable": true,
+   "missableNote": "Missable-risk (precautionary, not confirmed): the wording describes a single spontaneous-style event at one named location rather than a repeatable counter. When the story takes you to VCIA, explore the departure options before leaving the area, and keep a save from before VCIA story beats.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 38,
    "name": "Challenging Tank",
    "description": "Kinda hot in these Rhinos.",
    "grade": "bronze",
-   "guide": "Deal with Rhinos (tanks)."
+   "guide": "This is a secret-style trophy: its official description ('Kinda hot in these Rhinos') deliberately withholds the requirement. The obvious reading is that it involves Rhino tanks — heat, armoured vehicles, surviving or fighting them — but that is an inference from a joke description, and this guide labels it as such rather than presenting it as fact. Honest advice: do not build a farming plan around a guess. Note the trophy as unresolved, engage with any Rhino encounters the game gives you, and revisit this entry once the real condition is confirmed by play. Fabricated certainty would be worse than this admission.",
+   "kind": "combat",
+   "kindBasis": "Description is a cryptic joke ('Kinda hot in these Rhinos') that withholds the actual requirement — a secret-style trophy. 'Rhinos' plausibly refers to Rhino tanks, but that reading is an inference, not a stated fact.",
+   "secret": true,
+   "missable": false,
+   "missableNote": "Not flagged as missable: the description hides the requirement rather than describing a one-time window. Treat it as a secret trophy to revisit once its real condition is known.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 39,
    "name": "Sneakthief",
    "description": "Rob a jewelry store without being detected.",
    "grade": "bronze",
-   "guide": "Rob a jewelry store without being seen."
+   "guide": "Rob a jewelry store without being detected, start to finish. The condition is detection, not speed or takings, so the method the description supports is patience: enter prepared, avoid alarms and witnesses as the game's stealth systems define them, and leave without the robbery being noticed. The description does not name a store or a route, so scout any jewelry store's layout in ordinary visits before attempting the clean run. If an attempt is spotted, nothing is lost — this is a repeatable free-roam action.",
+   "kind": "combat",
+   "kindBasis": "Description sets a stealth condition on a repeatable action: rob a jewelry store without being detected.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: jewelry stores can be robbed again, so a detected attempt costs nothing but time — retry quietly.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 40,
    "name": "Maximum Withdrawal",
    "description": "Rob 5 Bank Vaults and escape.",
    "grade": "silver",
-   "guide": "Rob 5 bank vaults and escape (silver)."
+   "guide": "Rob 5 Bank Vaults and escape after each one. Both halves matter — a vault emptied but ending in arrest is not what the description describes — so plan the escape before the robbery: vehicle placed, route in mind, wanted level managed. Five successes is a mid-sized grind best spread across the playthrough rather than chained in one session, since each robbery will draw serious heat. The description does not name vault locations, so work from the game's map and rob each vault you gain access to.",
+   "kind": "combat",
+   "kindBasis": "Description sets a counted crime goal: rob 5 Bank Vaults and escape, each time.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: bank vault robberies are repeatable activities; the counter needs five successful escapes, and failed attempts simply do not count.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 41,
    "name": "A Classic Blitz Play",
    "description": "Rob an Armored Truck and escape.",
    "grade": "bronze",
-   "guide": "Rob an armored truck and escape."
+   "guide": "Rob an Armored Truck and escape. This is the single-action version of the bank-vault trophy: stop or open a truck, take what it carries, and get away cleanly enough for the escape to count. The description does not say how trucks are found or opened, so learn from the first truck the game puts in front of you — and if the attempt fails, treat it as practice. One success is all that is required.",
+   "kind": "combat",
+   "kindBasis": "Description describes a single repeatable crime: rob an Armored Truck and escape.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: armored trucks are recurring world targets, so a failed attempt can be repeated on the next one you find.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 42,
    "name": "The Goodtime State",
    "description": "Explore all of Leonida.",
    "grade": "bronze",
-   "guide": "Explore all 52 areas of Leonida."
+   "guide": "Explore all of Leonida — the starter data records 52 areas. Exploration trophies are finished by coverage, not by speed: make sure every region has genuinely been visited, not just driven past on a story route. Pair this with the meditation spots (Positive Mental Attitude) and vehicle discovery (Whip It Good), which reward the same sweeping habit. The official description does not define what counts as 'explored' for an area, so if the game tracks regions on its map, trust that display over guesswork and revisit any area that never registered.",
+   "kind": "exploration",
+   "kindBasis": "Description requires exploring all of Leonida — full-map exploration (starter data records 52 areas).",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: the map stays open. Explore region by region alongside story travel so no single area is left for a final sweep.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 43,
    "name": "Pest Control",
    "description": "Rob an Illegal Operation belonging to each gang.",
    "grade": "bronze",
-   "guide": "Rob one illegal operation of each of the 9 gangs."
+   "guide": "Rob an Illegal Operation belonging to each gang — the starter data records 9 gangs. The trap in 'each gang' trophies is repetition: robbing the same gang's operations five times still leaves eight gangs untouched. Keep a written list of gangs in this tracker as you clear them, and when the game introduces a new gang's territory, prioritise one of its operations. The description does not name the gangs or their operations, so the game's map and gang information are the source to work from.",
+   "kind": "combat",
+   "kindBasis": "Description requires robbing an Illegal Operation of each gang — starter data records 9 gangs.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: gang operations are world content that remains available; the requirement is coverage across gangs, so track which gangs are done.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 44,
    "name": "In The Beginning…",
    "description": "Enjoy a cocktail with a view on Ocean Beach.",
    "grade": "bronze",
-   "guide": "Have a cocktail with a view on Ocean Beach."
+   "guide": "Enjoy a cocktail with a view on Ocean Beach. The description is unusually specific about place (Ocean Beach) and mood (a cocktail, a view), which usually means a particular spot or interaction rather than any drink anywhere. The honest method: the first time you reach Ocean Beach, look for the bar or viewpoint interaction the game offers there and take the moment instead of rushing past it — the trophy's name, 'In The Beginning…', hints it belongs early. No exact spot is named in the official text, so none is invented here.",
+   "kind": "exploration",
+   "kindBasis": "Description describes a single relaxed moment at a named place: a cocktail with a view on Ocean Beach.",
+   "secret": false,
+   "missable": true,
+   "missableNote": "Missable-risk (precautionary, not confirmed): the trophy's name ('In The Beginning…') and its single-moment wording suggest it may be tied to an early-game opportunity at Ocean Beach. Try it the first time you are at Ocean Beach, and do not assume it can be done at any point until that is confirmed.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 45,
    "name": "Capital Offense",
    "description": "Smash your way out of a vehicle showroom in classic style.",
    "grade": "bronze",
-   "guide": "Smash out of a vehicle showroom in style."
+   "guide": "Smash your way out of a vehicle showroom in classic style: get into a vehicle inside a showroom and drive it out through the glass rather than the door, is the natural reading of the description. The text does not name a showroom, so use any vehicle showroom the game gives you — one may well appear during the story, and free-roam showrooms should serve equally. 'In classic style' is flavour wording; no extra condition can honestly be derived from it, so a clean smash-out is the goal.",
+   "kind": "stunt",
+   "kindBasis": "Description describes a single action moment: smash out of a vehicle showroom in classic style.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable on the wording given: showrooms are fixed world locations, so the action can be attempted whenever you are in one with a vehicle. If a showroom appears in a story mission, the moment may be easiest there — try it then as well.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 46,
    "name": "Let’s Go Bowling",
    "description": "Follow-through at the Kolt & Associates' bowling alley.",
    "grade": "bronze",
-   "guide": "Play bowling at the Kolt & Associates alley."
+   "guide": "Visit the Kolt & Associates' bowling alley and complete the bowling action the trophy calls a 'follow-through'. Unusually, the official description names the venue outright, which makes this one of the few trophies where a location can be stated without guessing: the Kolt & Associates' bowling alley. What exactly 'follow-through' requires — a game, a strike, a specific throw — is not stated, so play a proper game of bowling there rather than a single token throw, and let the trophy confirm the requirement by popping.",
+   "kind": "activity",
+   "kindBasis": "Description points at a specific place and sport: follow-through at the Kolt & Associates' bowling alley.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable on the wording given: a named bowling alley is a fixed location that stays visitable. Visit it when you are nearby rather than leaving a single small action for the endgame.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 47,
    "name": "Personal Best",
    "description": "A partnership with mass appeal.",
    "grade": "bronze",
-   "guide": "A partnership moment with mass appeal."
+   "guide": "This is a secret-style trophy whose description ('A partnership with mass appeal') withholds its requirement. It clearly gestures at the two protagonists' partnership and at public attention — an audience, followers, fame — but any specific action built on that reading would be a guess, and this guide does not publish guesses as steps. Mark it unresolved, play the partnership content the game offers, and revisit when the condition is confirmed. Its vagueness is the official list's choice, not missing research.",
+   "kind": "exploration",
+   "kindBasis": "Description is a cryptic hint ('A partnership with mass appeal') that withholds the actual requirement — a secret-style trophy.",
+   "secret": true,
+   "missable": false,
+   "missableNote": "Not flagged as missable: the description hides the requirement instead of naming a one-time window. Revisit once the real condition is confirmed.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 48,
    "name": "Actions Speak Louder",
    "description": "Choices made (for better or worse).",
    "grade": "bronze",
-   "guide": "Make choices (PSN tracks a count to 500)."
+   "guide": "Make choices — for better or worse. The starter data notes that the platform tracks this as a count running to 500, which makes it a cumulative trophy rather than a single decision: it fills as you take the choice prompts the game offers across the story. The description does not define what counts as a choice, so the safe approach is engagement — never skip an interactive decision, dialogue choice or either/or moment the game presents, and do not reload to erase choices you have made. Its description is secret-styled (it never says '500 choices' outright), so the count here is reported as tracker data, not as official wording.",
+   "kind": "story",
+   "kindBasis": "Description says 'Choices made (for better or worse)' and the list tracks a count (starter data notes PSN counts to 500) — cumulative story choices.",
+   "secret": true,
+   "missable": false,
+   "missableNote": "Not flagged as missable: the tracked count implies choices accumulate across the playthrough. Make choices deliberately when the game offers them rather than skipping interactive prompts.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 49,
    "name": "Bad Luck, I Guess",
    "description": "Second time's the charm.",
    "grade": "bronze",
-   "guide": "Succeed on a second try."
+   "guide": "Succeed at something on the second attempt — that is the plain reading of 'Second time's the charm' paired with its trophy name, 'Bad Luck, I Guess'. The description does not say second attempt at what, so no specific activity can honestly be named. The actionable version: when an activity, race or challenge goes wrong, retry it immediately and succeed on that second try at least once during your playthrough, instead of always reloading or walking away. This guide flags it as a risk precisely because a flawless, reload-heavy play style might never naturally produce a 'second time'.",
+   "kind": "exploration",
+   "kindBasis": "Description is a cryptic hint ('Second time's the charm') that withholds the exact requirement — a secret-style trophy.",
+   "secret": true,
+   "missable": true,
+   "missableNote": "Missable-risk (precautionary, not confirmed): the wording implies succeeding at something on a second attempt. A player who never fails or retries anything could in principle pass the triggering opportunity — if a minigame, race or challenge offers a retry, take a retry at least once rather than always moving on.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 50,
    "name": "The Truth Is Out There",
    "description": "What the hell just happened?",
    "grade": "bronze",
-   "guide": "Witness something strange."
+   "guide": "Witness something strange — the description ('What the hell just happened?') is a reaction, not an instruction, which makes this a secret-style trophy about stumbling onto one of the game's oddities. No event, place or trigger is stated, and inventing one (a specific UFO, ghost or anomaly location) would be exactly the kind of fabrication this guide refuses. The only honest advice: explore off the main routes, investigate anything that looks out of place in Leonida, and keep this trophy in mind when the game shows you something weird — witnessing it, not solving it, is what the name suggests.",
+   "kind": "exploration",
+   "kindBasis": "Description is a cryptic reaction ('What the hell just happened?') that withholds the requirement — a secret-style trophy.",
+   "secret": true,
+   "missable": false,
+   "missableNote": "Not flagged as missable: the description hides the requirement rather than naming a window. Strange-event trophies usually trigger from optional world content, so explore oddities instead of driving past them.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 51,
    "name": "Ten Pin",
    "description": "Bowl 'em over with a melee drive-by.",
    "grade": "bronze",
-   "guide": "Knock someone down with a melee drive-by."
+   "guide": "Knock a person down with a melee drive-by — striking someone from a moving vehicle with a melee attack, as the description's bowling joke ('Ten Pin') frames it. Set it up deliberately in free roam: ride or drive past a pedestrian at moderate speed and use the melee drive-by attack as you pass. Too fast and you will simply run them over with the vehicle, which is a different thing; the trophy wants the melee hit to do it. The description does not specify vehicle type or victim, so any clean connection should count — retry until it pops.",
+   "kind": "combat",
+   "kindBasis": "Description defines a specific combat action: bowl someone over with a melee drive-by.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: drive-by melee can be attempted in free roam at any time; attempts are unlimited.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 52,
    "name": "Dime on the Dollar",
    "description": "Earn $250,000 laundering Marked Bills through your contacts.",
    "grade": "bronze",
-   "guide": "Launder $250,000 of marked bills."
+   "guide": "Earn $250,000 by laundering Marked Bills through your contacts. This is a cumulative economy trophy: the total matters, not any single deal, so the efficient play is to use the laundering route every time you hold marked bills rather than spending or ignoring them. The description does not explain where marked bills come from or which contacts launder them — the game's economy systems will introduce both — so the guide's advice is behavioural: never sit on marked bills, and check your laundered total in the game's stats if it is shown. A quarter-million is a large sum; starting in the early game is the difference between a passive trophy and an endgame grind.",
+   "kind": "economy",
+   "kindBasis": "Description sets a money total: earn $250,000 laundering Marked Bills through contacts.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: a cumulative money counter that can be worked whenever laundering is available. Start routing marked bills to contacts early so the total builds passively.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 53,
    "name": "Treat Yo Self",
    "description": "Spend $100,000 across all shops.",
    "grade": "bronze",
-   "guide": "Spend $100,000 in shops."
+   "guide": "Spend $100,000 across all shops, cumulatively. 'Across all shops' means the total is pooled — there is no need to spend it in one place or in one session. Buy your regular supplies, clothes, vehicle work and property upkeep through shops as you play and the counter climbs on its own; only players who hoard cash and buy nothing will reach the endgame short of it. The description does not list shop types, so simply route your normal purchases through shops rather than any free alternative the game offers.",
+   "kind": "economy",
+   "kindBasis": "Description sets a spending total: 'Spend $100,000 across all shops.'",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: spending is cumulative across the whole playthrough and shops remain open.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 54,
    "name": "Little Boxes",
    "description": "Purchase all garage properties.",
    "grade": "bronze",
-   "guide": "Buy all 8 garage properties."
+   "guide": "Purchase all garage properties — the starter data records 8. This trophy is gated by money, not by a window: garages remain on sale, so buy them as your income allows, cheapest first if you want steady progress. It pairs naturally with Dime on the Dollar (laundering income) and with Whip It Good, since garages are where a 100-vehicle discovery habit ends up living. The description does not give prices or locations, so work from the game's property listings and buy the last one the moment you can afford it.",
+   "kind": "economy",
+   "kindBasis": "Description requires purchasing all garage properties — starter data records 8 garages.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: properties stay purchasable. It is money-gated, so it pairs with the earning trophies and may be one of the last economy trophies to finish.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   },
   {
    "id": 55,
    "name": "On the Spot",
    "description": "Register 10 vehicles to the Scooter Bros app.",
    "grade": "bronze",
-   "guide": "Register 10 vehicles in the Scooter Bros app."
+   "guide": "Register 10 vehicles to the Scooter Bros app. The description names the tool (the Scooter Bros app) and the count (10 vehicles), but not which vehicles qualify, so register broadly: whenever you acquire or use a new vehicle, register it rather than assuming your main car is enough. Ten is a small count that finishes quickly once the app is unlocked — do it early, alongside Whip It Good's vehicle discovery, and this trophy takes care of itself.",
+   "kind": "activity",
+   "kindBasis": "Description requires registering 10 vehicles to the Scooter Bros app — a counted app-based task.",
+   "secret": false,
+   "missable": false,
+   "missableNote": "Not missable: a cumulative registration count that can be completed whenever the app is available.",
+   "sources": "Sources: name, description and grade are taken unchanged from the official trophy list (published via Exophase and PSNProfiles, list dated 2026-11-18). The guide text is original advice written for this guide from that official description only. Grand Theft Auto VI was not yet released when this guide was written, so nothing here is claimed as verified in-game fact; where the description does not pin down a place, count or step, the guide says so."
   }
  ]
 }

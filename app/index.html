@@ -3,23 +3,108 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI trophy checklist</title>
+<title>Leonida Trophy Guide — GTA VI Platinum Tracker</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>GTA VI trophy checklist</h1>
-  <p id="progress">0 of 55 earned</p>
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <p class="kicker">Grand Theft Auto VI · PlayStation 5 · Offline guide</p>
+      <h1>Leonida Trophy Guide</h1>
+      <p class="tagline">All 55 official trophies with a progress tracker, a platinum roadmap, missable-risk flags and an honest, source-cited guide for every trophy — written from the official descriptions, with nothing invented.</p>
+    </div>
+    <div class="hero-progress">
+      <div class="ring-wrap">
+        <div class="ring" id="ring"><span id="ringPct">0%</span></div>
+        <p class="ring-label" id="progressText">0 of 55 earned</p>
+      </div>
+      <div class="grade-counters" id="gradeCounters"></div>
+    </div>
+  </div>
+  <nav class="tabs" aria-label="Views">
+    <button type="button" data-view="checklist" class="tab active">Checklist</button>
+    <button type="button" data-view="roadmap" class="tab">Roadmap to Platinum</button>
+    <button type="button" data-view="missables" class="tab">Missables</button>
+    <button type="button" data-view="next" class="tab">Next Up</button>
+  </nav>
 </header>
-<div class="controls">
-  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
-  <button id="export" type="button">Export progress</button>
-  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
-</div>
-<table>
-  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
-  <tbody id="rows"></tbody>
-</table>
+
+<main>
+  <!-- CHECKLIST -->
+  <section id="view-checklist" class="view">
+    <div class="controls card">
+      <label>Search <input id="search" type="search" placeholder="Name, description or guide…"></label>
+      <label>Grade
+        <select id="gradeFilter">
+          <option value="all">All grades</option><option value="platinum">Platinum</option>
+          <option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option>
+        </select>
+      </label>
+      <label>Type
+        <select id="kindFilter"><option value="all">All types</option></select>
+      </label>
+      <label>Status
+        <select id="statusFilter">
+          <option value="all">All</option><option value="earned">Earned</option><option value="missing">Not yet earned</option>
+        </select>
+      </label>
+      <label class="check"><input id="spoilerToggle" type="checkbox" checked> Spoiler protection</label>
+      <button id="exportBtn" type="button">Export progress</button>
+      <label class="importBtn">Import progress <input id="importFile" type="file" accept="application/json"></label>
+      <button id="resetBtn" type="button" class="ghost">Reset</button>
+      <p id="ioMsg" class="io-msg" role="status"></p>
+    </div>
+    <p class="count-line" id="countLine"></p>
+    <div class="layout">
+      <div class="list card" id="list" role="list"></div>
+      <aside class="detail card" id="detail" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section id="view-roadmap" class="view" hidden>
+    <div class="card prose">
+      <h2>Roadmap to the Platinum</h2>
+      <p>Five phases, built only from what the official trophy descriptions actually say. Story and chapter trophies come first because strands, activities and counters open up as Leonida opens up. Cumulative trophies (250 stunts, 100 WAiNK locations, $250,000 laundered) are started in the early phases and finished in the late ones — the single most common platinum mistake is leaving them all for the end. Phase progress below is live: it follows the same checkboxes as the checklist.</p>
+    </div>
+    <div id="phases"></div>
+  </section>
+
+  <!-- MISSABLES -->
+  <section id="view-missables" class="view" hidden>
+    <div class="card prose">
+      <h2>Missables &amp; one-time risks</h2>
+      <p><strong>Honesty note:</strong> Grand Theft Auto VI was not yet released when this guide was written, so no trophy can be confirmed missable. The flags below are <em>precautionary readings of the official wording</em> — trophies whose description describes a single moment, an opening mission, or a succeed-on-the-retry pattern rather than a repeatable counter. Everything not flagged is a repeatable activity, a cumulative counter, or a completion reward on the wording given. Treat the flagged four as “secure these when the moment comes, and keep a save”, not as proven missables.</p>
+      <h3>Save habits that cover every risk on this list</h3>
+      <ul>
+        <li>Keep a manual save before each chapter break and before the final mission.</li>
+        <li>Keep an early save until the opening-mission trophy (Just Like Paradise) has popped.</li>
+        <li>When the story takes you to VCIA or Ocean Beach, explore the moment before moving on.</li>
+        <li>Retry a failed activity at least once instead of always reloading — one trophy reads as a second-attempt reward.</li>
+      </ul>
+    </div>
+    <div id="missableList"></div>
+    <div class="card prose">
+      <h3>Secret trophies</h3>
+      <p id="secretNote"></p>
+      <div id="secretList"></div>
+    </div>
+  </section>
+
+  <!-- NEXT UP -->
+  <section id="view-next" class="view" hidden>
+    <div class="card prose">
+      <h2>Next Up — what to chase now</h2>
+      <p>Suggestions are computed from your tracker: story progression first (it unlocks everything else), then quick single-action trophies, then strand finales, then activities and collectibles, with the long cumulative counters and the 100% completion gold left for the endgame. The platinum itself is suggested only when it is the last trophy standing.</p>
+    </div>
+    <div id="nextList" class="next-grid"></div>
+  </section>
+</main>
+
+<footer>
+  <p>Unofficial fan guide. Trophy names, descriptions and grades are the official list as published via Exophase and PSNProfiles (list dated 2026-11-18); every guide text is original writing for this guide and cites its sources per trophy. This app works fully offline and stores progress only in your browser.</p>
+</footer>
 <script type="module" src="app.js"></script>
 </body>
 </html>
