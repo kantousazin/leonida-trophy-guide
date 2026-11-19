@@ -119,6 +119,8 @@ function renderDetail() {
     d.append(h3, p);
   };
   sect('Guide — in our own words', t.guide);
+  const phase = PHASES.find((p) => p.ids.includes(t.id));
+  if (phase) sect('On the roadmap', phase.title + ' — open the Roadmap view to see it in context and track the whole phase at once.');
   sect('Why this type', t.kindBasis);
   if (t.missable) sect('Missable-risk note', t.missableNote);
   else sect('Missable check', t.missableNote);
@@ -285,10 +287,28 @@ for (const k of kinds) {
   const o = document.createElement('option'); o.value = k; o.textContent = k[0].toUpperCase() + k.slice(1);
   $('kindFilter').append(o);
 }
-for (const id of ['search', 'gradeFilter', 'kindFilter', 'statusFilter']) $(id).addEventListener('input', renderList);
+for (const id of ['search', 'gradeFilter', 'kindFilter', 'statusFilter']) $(id).addEventListener('input', () => { renderList(); renderKindLine(); });
 $('spoilerToggle').addEventListener('change', () => { renderList(); renderDetail(); });
 
-function renderAll() { renderProgress(); renderList(); renderDetail(); renderRoadmap(); renderMissables(); renderNext(); }
+function renderKindLine() {
+  const wrap = $('kindLine');
+  wrap.replaceChildren();
+  const all = document.createElement('button');
+  all.type = 'button'; all.className = 'kindchip' + ($('kindFilter').value === 'all' ? ' on' : '');
+  all.textContent = `All types · ${earned.size}/${trophies.length}`;
+  all.addEventListener('click', () => { $('kindFilter').value = 'all'; renderList(); renderKindLine(); });
+  wrap.append(all);
+  for (const k of [...new Set(trophies.map((t) => t.kind))].sort()) {
+    const ts = trophies.filter((t) => t.kind === k);
+    const got = ts.filter((t) => earned.has(t.name)).length;
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'kindchip' + ($('kindFilter').value === k ? ' on' : '');
+    b.textContent = `${k[0].toUpperCase() + k.slice(1)} · ${got}/${ts.length}`;
+    b.addEventListener('click', () => { $('kindFilter').value = k; renderList(); renderKindLine(); });
+    wrap.append(b);
+  }
+}
+function renderAll() { renderProgress(); renderList(); renderDetail(); renderRoadmap(); renderMissables(); renderNext(); renderKindLine(); }
 renderAll();
 const startView = location.hash.replace('#', '');
 if (['roadmap', 'missables', 'next'].includes(startView)) showView(startView);
