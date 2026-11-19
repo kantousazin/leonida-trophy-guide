@@ -227,7 +227,7 @@ function renderNext() {
   }
   missing.slice(0, 8).forEach((t, i) => {
     const card = document.createElement('div'); card.className = 'card next-card';
-    const rank = document.createElement('p'); rank.className = 'rank'; rank.textContent = 'Next ' + (i + 1) + ' · ' + t.grade + ' · ' + t.kind;
+    const rank = document.createElement('p'); rank.className = 'rank'; rank.textContent = 'Next ' + (i + 1) + ' · ' + t.grade + ' · ' + t.kind + (t.missable ? ' · missable-risk' : '') + (t.secret ? ' · secret' : '');
     const h = document.createElement('h3'); h.textContent = t.name;
     const why = document.createElement('p'); why.className = 'why'; why.textContent = nextReason(t);
     const b = document.createElement('button'); b.type = 'button'; b.textContent = 'Open guide';
