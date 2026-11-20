@@ -239,13 +239,125 @@ function checkNoExternalUrls(appDir, entries) {
   fact(`external-url scan: ${scanned} text files scanned under app/`);
 }
 
+// --- Stage 2 additions ------------------------------------------------------
+// After the first working version above was run against the real payload,
+// three gaps were obvious: it proved the data was *shaped* right but not
+// that it had *substance*, it trusted screenshot file extensions without
+// looking at the bytes, and it never followed the references index.html
+// makes. The checks below close those gaps.
+
+// A guide shorter than this is a placeholder, not a guide. The shortest
+// real guide in the shipped data is a little over 300 characters, so 200
+// leaves headroom for honest edits while still catching stubs.
+const GUIDE_MIN_CHARS = 200;
+
+// Check 5: trophy substance. Descriptions must be unique (a duplicated
+// description means a copy-paste slip in the official list), every guide
+// must clear the minimum length, and the extended fields this guide adds
+// on top of the official list (kind, kindBasis, secret, missable,
+// missableNote, sources) must be present and well-typed on every entry,
+// because the app renders all of them.
+function checkTrophySubstance(appDir) {
+  const dataPath = join(appDir, 'data', 'trophies.json');
+  if (!existsSync(dataPath)) return; // already reported by check 1
+  let data;
+  try {
+    data = JSON.parse(readFileSync(dataPath, 'utf8'));
+  } catch {
+    return; // already reported by check 1
+  }
+  if (!Array.isArray(data?.trophies)) return;
+  if (!isNonEmptyString(data.platform)) problem('trophies.json: "platform" is missing or empty');
+  if (!isNonEmptyString(data.list)) problem('trophies.json: "list" is missing or empty');
+  const seenDescriptions = new Set();
+  let shortestGuide = Infinity;
+  let totalGuideChars = 0;
+  for (const trophy of data.trophies) {
+    if (trophy === null || typeof trophy !== 'object') continue;
+    const label = `trophy "${trophy.name ?? 'unnamed'}"`;
+    if (isNonEmptyString(trophy.description)) {
+      if (seenDescriptions.has(trophy.description)) {
+        problem(`${label}: description duplicates another trophy's description`);
+      }
+      seenDescriptions.add(trophy.description);
+    }
+    if (isNonEmptyString(trophy.guide)) {
+      shortestGuide = Math.min(shortestGuide, trophy.guide.length);
+      totalGuideChars += trophy.guide.length;
+      if (trophy.guide.length < GUIDE_MIN_CHARS) {
+        problem(`${label}: guide is only ${trophy.guide.length} chars (minimum ${GUIDE_MIN_CHARS})`);
+      }
+    }
+    if (!isNonEmptyString(trophy.kind)) problem(`${label}: kind is missing or empty`);
+    if (!isNonEmptyString(trophy.kindBasis)) problem(`${label}: kindBasis is missing or empty`);
+    if (!isNonEmptyString(trophy.sources)) problem(`${label}: sources note is missing or empty`);
+    if (!isNonEmptyString(trophy.missableNote)) problem(`${label}: missableNote is missing or empty`);
+    if (typeof trophy.secret !== 'boolean') problem(`${label}: secret is not a boolean`);
+    if (typeof trophy.missable !== 'boolean') problem(`${label}: missable is not a boolean`);
+  }
+  if (shortestGuide !== Infinity) {
+    fact(`trophies: guide length shortest ${shortestGuide} chars, total ${totalGuideChars} chars`);
+  }
+  fact(`trophies: ${seenDescriptions.size} unique descriptions`);
+}
+
+// Check 6: screenshot signatures. An extension is only a name; the first
+// bytes of the file say what it really is. JPEG files start with FF D8 FF
+// and PNG files with 89 50 4E 47, and the signature must agree with the
+// extension so the dossier's image handling sees what it expects.
+function checkScreenshotSignatures(shotsDir) {
+  if (!existsSync(shotsDir)) return; // already reported by check 3
+  for (const name of readdirSync(shotsDir).sort()) {
+    const full = join(shotsDir, name);
+    if (!statSync(full).isFile()) continue;
+    const head = readFileSync(full).subarray(0, 4);
+    const isJpeg = head[0] === 0xff && head[1] === 0xd8 && head[2] === 0xff;
+    const isPng = head[0] === 0x89 && head[1] === 0x50 && head[2] === 0x4e && head[3] === 0x47;
+    const ext = extname(name).toLowerCase();
+    if ((ext === '.jpg' || ext === '.jpeg') && !isJpeg) {
+      problem(`screenshots/${name}: extension says JPEG but the signature does not`);
+    }
+    if (ext === '.png' && !isPng) {
+      problem(`screenshots/${name}: extension says PNG but the signature does not`);
+    }
+    if (!isJpeg && !isPng) {
+      problem(`screenshots/${name}: unrecognised image signature`);
+    }
+  }
+  fact('screenshots: file signatures verified against extensions');
+}
+
+// Check 7: index.html's local references resolve. The entry page pulls in
+// its stylesheet and script by relative path; if one of those files is
+// renamed or dropped, the guide renders unstyled or dead. Every src/href
+// that is not a fragment or an absolute URL must name a file under app/.
+function checkIndexReferences(appDir) {
+  const indexPath = join(appDir, 'index.html');
+  if (!existsSync(indexPath)) return; // already reported by check 2
+  const html = readFileSync(indexPath, 'utf8');
+  const refs = [...html.matchAll(/(?:src|href)="([^"]+)"/g)].map((m) => m[1]);
+  let localRefs = 0;
+  for (const ref of refs) {
+    if (ref.startsWith('#') || ref.startsWith('data:')) continue;
+    if (/^[a-z][a-z0-9+.-]*:/i.test(ref)) continue; // scheme URLs are check 4's business
+    localRefs += 1;
+    if (!existsSync(join(appDir, ref))) {
+      problem(`app/index.html references "${ref}", which does not exist under app/`);
+    }
+  }
+  fact(`app: index.html carries ${localRefs} local reference(s), all resolved`);
+}
+
 // Run the whole pre-flight and report. Exits non-zero, before any output
 // is produced, when at least one problem was found.
 function runPreflight() {
   const appDir = join(here, 'app');
   checkTrophies(appDir);
+  checkTrophySubstance(appDir);
   const entries = checkAppInventory(appDir);
   checkScreenshots(join(here, 'screenshots'));
+  checkScreenshotSignatures(join(here, 'screenshots'));
+  checkIndexReferences(appDir);
   checkNoExternalUrls(appDir, entries);
   console.log('pre-flight summary:');
   for (const line of facts) console.log(`  - ${line}`);
